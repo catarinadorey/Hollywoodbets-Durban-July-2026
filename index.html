@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Resultados da campanha Meta Ads — Hollywoodbets Durban July" />
+  <title>Hollywoodbets Durban July — Resultados Meta Ads</title>
+
+  <style>
+    :root{
+      --ink:#0a0a0a;
+      --paper:#f4f4ef;
+      --white:#ffffff;
+      --muted:#777b78;
+      --line:#d9d9d2;
+      --acid:#d8ff34;
+      --acid-2:#bff000;
+      --dark-card:#141414;
+      --radius:22px;
+      --shadow:0 18px 50px rgba(0,0,0,.10);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--paper);
+      color:var(--ink);
+      font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height:1.45;
+    }
+
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .shell{width:min(1240px, calc(100% - 40px)); margin:0 auto}
+    .eyebrow{
+      text-transform:uppercase;
+      letter-spacing:.14em;
+      font-size:.72rem;
+      font-weight:800;
+    }
+
+    .topbar{
+      position:sticky; top:0; z-index:20;
+      background:rgba(10,10,10,.92);
+      color:#fff;
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(255,255,255,.12);
+    }
+
+    .topbar-inner{
+      height:72px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-weight:900;
+      letter-spacing:-.03em;
+    }
+
+    .brand-mark{
+      width:34px;height:34px;
+      background:var(--acid);
+      display:grid;place-items:center;
+      border-radius:50%;
+      color:#000;
+      font-size:.78rem;
+      transform:rotate(-8deg);
+    }
+
+    .nav{display:flex;gap:22px;color:#cfcfcf;font-size:.85rem;font-weight:700}
+    .nav a:hover{color:var(--acid)}
+
+    .hero{
+      background:var(--ink);
+      color:#fff;
+      padding:82px 0 64px;
+      overflow:hidden;
+      position:relative;
+    }
+
+    .hero:after{
+      content:"";
+      position:absolute;
+      right:-140px; top:-170px;
+      width:520px;height:520px;
+      border:90px solid var(--acid);
+      border-radius:50%;
+      opacity:.94;
+    }
+
+    .hero-grid{
+      position:relative;z-index:2;
+      display:grid;
+      grid-template-columns:1.45fr .55fr;
+      gap:56px;
+      align-items:end;
+    }
+
+    h1{
+      margin:14px 0 18px;
+      font-size:clamp(3.2rem, 8vw, 7.4rem);
+      line-height:.87;
+      letter-spacing:-.075em;
+      max-width:900px;
+    }
+
+    .hero-copy{
+      max-width:690px;
+      color:#bdbdbd;
+      font-size:1.05rem;
+    }
+
+    .hero-side{
+      border-left:1px solid #393939;
+      padding-left:28px;
+      display:grid;
+      gap:22px;
+    }
+
+    .hero-meta span{display:block;color:#8f8f8f;font-size:.75rem;text-transform:uppercase;letter-spacing:.12em}
+    .hero-meta strong{display:block;font-size:1.15rem;margin-top:4px}
+
+    main{padding:42px 0 88px}
+
+    .kpi-grid{
+      display:grid;
+      grid-template-columns:repeat(6,1fr);
+      gap:14px;
+      margin-top:-78px;
+      position:relative;
+      z-index:5;
+    }
+
+    .kpi{
+      background:var(--white);
+      border:1px solid rgba(0,0,0,.06);
+      border-radius:18px;
+      padding:22px 18px;
+      box-shadow:var(--shadow);
+      min-height:132px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+
+    .kpi.featured{background:var(--acid)}
+    .kpi-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;color:#5f625f}
+    .kpi-value{font-size:clamp(1.55rem, 2vw, 2.25rem);font-weight:900;letter-spacing:-.05em}
+    .kpi-note{font-size:.72rem;color:#777}
+
+    section{padding:70px 0 0}
+    .section-head{
+      display:flex;
+      justify-content:space-between;
+      align-items:end;
+      gap:30px;
+      margin-bottom:24px;
+    }
+
+    h2{
+      font-size:clamp(2rem,4vw,4.2rem);
+      margin:0;
+      line-height:.95;
+      letter-spacing:-.06em;
+    }
+
+    .section-note{max-width:450px;color:#6f736f;font-size:.9rem}
+
+    .panel{
+      background:#fff;
+      border-radius:var(--radius);
+      overflow:hidden;
+      border:1px solid rgba(0,0,0,.07);
+      box-shadow:0 12px 38px rgba(0,0,0,.06);
+    }
+
+    .table-wrap{overflow-x:auto}
+    table{width:100%;border-collapse:collapse;min-width:850px}
+    th,td{padding:18px 20px;text-align:right;border-bottom:1px solid #ecece7;white-space:nowrap}
+    th:first-child,td:first-child{text-align:left}
+    th{
+      background:#111;
+      color:#fff;
+      font-size:.72rem;
+      text-transform:uppercase;
+      letter-spacing:.09em;
+      font-weight:800;
+    }
+    tr:last-child td{border-bottom:0}
+    tbody tr:hover{background:#f8f8f3}
+    .best{font-weight:900;background:rgba(216,255,52,.45)}
+    .subtle{color:#727672}
+
+    .audience-layout{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:18px;
+    }
+
+    .chart-card{
+      background:#111;
+      color:#fff;
+      border-radius:var(--radius);
+      padding:30px;
+      min-height:420px;
+    }
+
+    .chart-title{font-size:1.3rem;font-weight:900;letter-spacing:-.03em;margin-bottom:30px}
+    .bar-group{display:grid;gap:24px}
+    .bar-row{display:grid;gap:8px}
+    .bar-top{display:flex;justify-content:space-between;gap:20px;font-size:.86rem}
+    .bar-track{height:12px;background:#2c2c2c;border-radius:99px;overflow:hidden}
+    .bar-fill{height:100%;width:var(--w);background:var(--acid);border-radius:99px;transform-origin:left;animation:grow 1s ease both}
+    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+    .mini-stats{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+      margin-top:32px;
+    }
+    .mini-stat{
+      background:#202020;
+      border-radius:14px;
+      padding:16px;
+    }
+    .mini-stat span{display:block;color:#8d8d8d;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em}
+    .mini-stat strong{display:block;font-size:1.4rem;margin-top:4px}
+
+    .creative-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
+
+    .creative-card{
+      background:#fff;
+      border-radius:var(--radius);
+      padding:30px;
+      border:1px solid rgba(0,0,0,.07);
+      box-shadow:0 12px 38px rgba(0,0,0,.05);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .creative-card.winner{background:var(--acid)}
+    .creative-card .tag{
+      display:inline-block;
+      border:1px solid currentColor;
+      border-radius:99px;
+      padding:7px 11px;
+      font-size:.68rem;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+      margin-bottom:24px;
+    }
+
+    .creative-card h3{
+      font-size:clamp(1.65rem,3vw,2.75rem);
+      line-height:.98;
+      letter-spacing:-.055em;
+      margin:0 0 28px;
+      max-width:500px;
+    }
+
+    .metric-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .metric-item{border-top:1px solid rgba(0,0,0,.18);padding-top:12px}
+    .metric-item span{display:block;font-size:.69rem;text-transform:uppercase;letter-spacing:.09em;color:#626662;font-weight:800}
+    .metric-item strong{display:block;font-size:1.3rem;margin-top:5px;letter-spacing:-.04em}
+
+    .insight{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns:auto 1fr;
+      gap:18px;
+      align-items:center;
+      background:#111;
+      color:#fff;
+      border-radius:var(--radius);
+      padding:28px 30px;
+    }
+
+    .insight-number{
+      font-size:clamp(3rem,7vw,6.5rem);
+      font-weight:950;
+      letter-spacing:-.08em;
+      color:var(--acid);
+      line-height:.8;
+    }
+
+    .insight p{margin:0;color:#c8c8c8;max-width:760px;font-size:1rem}
+    .insight strong{color:#fff}
+
+    .footer{
+      margin-top:80px;
+      padding:38px 0;
+      border-top:1px solid #d6d6cf;
+      color:#6c706c;
+      font-size:.82rem;
+    }
+
+    .footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+    .print-btn{
+      background:var(--acid);
+      color:#000;
+      border:0;
+      border-radius:999px;
+      padding:11px 16px;
+      font-weight:900;
+      cursor:pointer;
+    }
+
+    .print-btn:hover{background:#fff}
+
+    @media(max-width:980px){
+      .hero-grid,.audience-layout{grid-template-columns:1fr}
+      .hero-side{border-left:0;border-top:1px solid #393939;padding:24px 0 0;grid-template-columns:repeat(3,1fr)}
+      .kpi-grid{grid-template-columns:repeat(3,1fr);margin-top:-44px}
+      .creative-grid{grid-template-columns:1fr}
+      .hero:after{opacity:.32}
+    }
+
+    @media(max-width:650px){
+      .shell{width:min(100% - 24px,1240px)}
+      .nav{display:none}
+      .hero{padding-top:58px}
+      .hero-side{grid-template-columns:1fr}
+      .kpi-grid{grid-template-columns:repeat(2,1fr)}
+      .section-head{display:block}
+      .section-note{margin-top:14px}
+      .metric-list{grid-template-columns:1fr 1fr}
+      .insight{grid-template-columns:1fr}
+      th,td{padding:15px 14px}
+    }
+
+    @media print{
+      .topbar,.print-btn{display:none!important}
+      body{background:#fff}
+      .hero{padding:40px 0}
+      section{padding-top:36px}
+      .kpi-grid{margin-top:18px}
+      .panel,.kpi,.creative-card,.chart-card{box-shadow:none;break-inside:avoid}
+      .footer{margin-top:30px}
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">CA</div>
+        <span>Campaign Performance</span>
+      </div>
+      <nav class="nav" aria-label="Navegação">
+        <a href="#resumo">Resumo</a>
+        <a href="#publicos">Públicos</a>
+        <a href="#criativos">Criativos</a>
+        <a href="#detalhe">Detalhe</a>
+      </nav>
+      <button class="print-btn" onclick="window.print()">Exportar PDF</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div>
+        <div class="eyebrow">Meta Ads · South Africa</div>
+        <h1>Hollywoodbets<br>Durban July</h1>
+        <p class="hero-copy">
+          Resultados de performance por público e por conceito criativo.
+          A distribuição do investimento foi otimizada automaticamente pela Meta.
+        </p>
+      </div>
+      <div class="hero-side">
+        <div class="hero-meta"><span>Plataforma</span><strong>Meta Ads</strong></div>
+        <div class="hero-meta"><span>Estrutura</span><strong>3 públicos · 2 vídeos</strong></div>
+        <div class="hero-meta"><span>Mercado</span><strong>África do Sul</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="shell">
+    <section id="resumo">
+      <div class="kpi-grid">
+        <article class="kpi featured">
+          <span class="kpi-label">Investimento</span>
+          <strong class="kpi-value">€700,00</strong>
+          <small class="kpi-note">Total da campanha</small>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">Impressões</span>
+          <strong class="kpi-value">170.284</strong>
+          <small class="kpi-note">Entrega total</small>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">Cliques</span>
+          <strong class="kpi-value">3.170</strong>
+          <small class="kpi-note">Total registado</small>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">CTR</span>
+          <strong class="kpi-value">1,86%</strong>
+          <small class="kpi-note">Cliques / impressões</small>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">CPC médio</span>
+          <strong class="kpi-value">€0,22</strong>
+          <small class="kpi-note">Custo por clique</small>
+        </article>
+        <article class="kpi">
+          <span class="kpi-label">CPM médio</span>
+          <strong class="kpi-value">€4,11</strong>
+          <small class="kpi-note">Por mil impressões</small>
+        </article>
+      </div>
+    </section>
+
+    <section id="publicos">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">01 / Ad sets</div>
+          <h2>Resultados por público</h2>
+        </div>
+        <p class="section-note">
+          O público Open apresentou o melhor CTR e o CPC mais baixo.
+          Sports concentrou o maior volume de investimento e cliques.
+        </p>
+      </div>
+
+      <div class="audience-layout">
+        <div class="panel table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Público</th>
+                <th>Investimento</th>
+                <th>Impressões</th>
+                <th>Alcance</th>
+                <th>Cliques</th>
+                <th>CTR</th>
+                <th>CPC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Sports</strong></td>
+                <td>€438,61</td>
+                <td>102.532</td>
+                <td>78.640</td>
+                <td>1.802</td>
+                <td>1,76%</td>
+                <td>€0,24</td>
+              </tr>
+              <tr>
+                <td><strong>Open</strong></td>
+                <td>€206,77</td>
+                <td>58.767</td>
+                <td>51.995</td>
+                <td>1.230</td>
+                <td class="best">2,09%</td>
+                <td class="best">€0,17</td>
+              </tr>
+              <tr>
+                <td><strong>Lookalike</strong></td>
+                <td>€54,62</td>
+                <td>8.985</td>
+                <td>8.075</td>
+                <td>138</td>
+                <td>1,54%</td>
+                <td>€0,40</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <aside class="chart-card">
+          <div class="chart-title">Distribuição de cliques</div>
+          <div class="bar-group">
+            <div class="bar-row">
+              <div class="bar-top"><span>Sports</span><strong>1.802</strong></div>
+              <div class="bar-track"><div class="bar-fill" style="--w:100%"></div></div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-top"><span>Open</span><strong>1.230</strong></div>
+              <div class="bar-track"><div class="bar-fill" style="--w:68.3%"></div></div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-top"><span>Lookalike</span><strong>138</strong></div>
+              <div class="bar-track"><div class="bar-fill" style="--w:7.7%"></div></div>
+            </div>
+          </div>
+
+          <div class="mini-stats">
+            <div class="mini-stat"><span>Melhor CTR</span><strong>Open · 2,09%</strong></div>
+            <div class="mini-stat"><span>Melhor CPC</span><strong>Open · €0,17</strong></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="criativos">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">02 / Creatives</div>
+          <h2>Resultados por criativo</h2>
+        </div>
+        <p class="section-note">
+          O conceito focado na experiência do evento gerou mais cliques,
+          maior CTR e um CPC significativamente inferior.
+        </p>
+      </div>
+
+      <div class="creative-grid">
+        <article class="creative-card winner">
+          <span class="tag">Criativo vencedor</span>
+          <h3>Durban July — Experiência do Evento</h3>
+          <div class="metric-list">
+            <div class="metric-item"><span>Investimento</span><strong>€330,62</strong></div>
+            <div class="metric-item"><span>Impressões</span><strong>93.950</strong></div>
+            <div class="metric-item"><span>Alcance agregado</span><strong>83.549</strong></div>
+            <div class="metric-item"><span>Cliques</span><strong>2.034</strong></div>
+            <div class="metric-item"><span>CTR</span><strong>2,17%</strong></div>
+            <div class="metric-item"><span>CPC</span><strong>€0,16</strong></div>
+          </div>
+        </article>
+
+        <article class="creative-card">
+          <span class="tag">Prémio</span>
+          <h3>Gold Challenge — R2,5 Milhões em Prémios</h3>
+          <div class="metric-list">
+            <div class="metric-item"><span>Investimento</span><strong>€369,38</strong></div>
+            <div class="metric-item"><span>Impressões</span><strong>76.334</strong></div>
+            <div class="metric-item"><span>Alcance agregado</span><strong>61.655</strong></div>
+            <div class="metric-item"><span>Cliques</span><strong>1.136</strong></div>
+            <div class="metric-item"><span>CTR</span><strong>1,49%</strong></div>
+            <div class="metric-item"><span>CPC</span><strong>€0,33</strong></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="insight">
+        <div class="insight-number">64%</div>
+        <p>
+          O criativo <strong>Experiência do Evento</strong> gerou aproximadamente
+          <strong>64% dos cliques totais</strong>, com um CPC cerca de
+          <strong>50% inferior</strong> ao vídeo focado no prémio.
+        </p>
+      </div>
+    </section>
+
+    <section id="detalhe">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">03 / Breakdown</div>
+          <h2>Detalhe completo</h2>
+        </div>
+        <p class="section-note">Resultados de cada combinação entre público e criativo.</p>
+      </div>
+
+      <div class="panel table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Público / Criativo</th>
+              <th>Investimento</th>
+              <th>Impressões</th>
+              <th>Alcance</th>
+              <th>Cliques</th>
+              <th>CTR</th>
+              <th>CPC</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Sports</strong> · Experiência do Evento</td>
+              <td>€139,81</td><td>38.190</td><td>33.470</td><td>846</td><td>2,22%</td><td>€0,17</td>
+            </tr>
+            <tr>
+              <td><strong>Sports</strong> · R2,5 Milhões em Prémios</td>
+              <td>€298,80</td><td>64.342</td><td>50.645</td><td>956</td><td>1,49%</td><td>€0,31</td>
+            </tr>
+            <tr>
+              <td><strong>Lookalike</strong> · Experiência do Evento</td>
+              <td>€10,93</td><td>1.841</td><td>1.739</td><td>33</td><td>1,79%</td><td>€0,33</td>
+            </tr>
+            <tr>
+              <td><strong>Lookalike</strong> · R2,5 Milhões em Prémios</td>
+              <td>€43,69</td><td>7.144</td><td>6.393</td><td>105</td><td>1,47%</td><td>€0,42</td>
+            </tr>
+            <tr class="best">
+              <td><strong>Open</strong> · Experiência do Evento</td>
+              <td>€179,88</td><td>53.919</td><td>48.340</td><td>1.155</td><td>2,14%</td><td>€0,16</td>
+            </tr>
+            <tr>
+              <td><strong>Open</strong> · R2,5 Milhões em Prémios</td>
+              <td>€26,89</td><td>4.848</td><td>4.617</td><td>75</td><td>1,55%</td><td>€0,36</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>Preparado para Sílvia · Hollywoodbets Durban July</span>
+        <span>Nota: o alcance agregado por criativo pode incluir sobreposição entre públicos.</span>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
